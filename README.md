@@ -1,10 +1,15 @@
 # XML-JSON-Converter
-URL :- http://localhost:8080/api/convert
+URL -
+```console
+http://localhost:8080/api/convert
+```
 Method:- POST
+
 Content-Type:- xml
 
 Input:- XML
 
+```console
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
     <ResultBlock>
@@ -44,10 +49,11 @@ Input:- XML
         </API>
     </ResultBlock>
 </Response>
-
+```
 
 Output:-JSON
 
+```console
 {
   "Response": {
     "ResultBlock": {
@@ -90,3 +96,4 @@ Output:-JSON
     }
   }
 }
+```
